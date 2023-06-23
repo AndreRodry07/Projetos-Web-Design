@@ -1,0 +1,119 @@
+/*=====================START RESET CSS=====================*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/*=======================END RESET CSS=====================*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+figure {
+    height: 140px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*=========================START FORM========================*/
+.container {
+    height: 100vh;
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.form_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e4ebf0;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 30px 35px 13px #bdd1de;
+}
+
+.title {
+    color: #44749d;
+    font-weight: 900;
+    font-size: 1.9em;
+    margin-top: 20px;
+}
+
+.sub_title {
+    font-weight: 600;
+    margin: 5px 0;
+    font-size: 1.4em;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 20px;
+}
+
+.form_style {
+    outline: none;
+    border: 2px solid #A6D0DD;
+    background-color: #F8F6F4;
+    box-shadow: 3px 4px 3px 1px #c6d4e1;
+    width: 290px;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.form_style:focus, .btn:focus {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px #bdb8ad;
+    border: 1px solid #F8F6F4;
+}
+
+.btn {
+padding: 15px;
+margin: 30px 0px;
+width: 260px;
+font-size: 15px;
+background-color: #4180ab;
+border-radius: 30px;
+font-weight: 800;
+color: #ffffff;
+box-shadow: 5px 5px 5px 0px #8ab3cf;
+transition: transform 0.6s ease;
+}
+
+.btn:hover {
+transform: scale(1.1);
+}
+
+p {
+    margin: 20px 0px;
+    font-size: 1.3em;
+}
+
+.link {
+    font-weight: 800;
+    color: #44749d;
+    font-size: 1.4em;
+}
+/*==========================END FORM===========================*/
+
+
+
